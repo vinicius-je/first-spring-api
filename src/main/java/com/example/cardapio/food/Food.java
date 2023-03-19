@@ -6,6 +6,7 @@ import lombok.*;
 @Table(name = "food")
 @Entity(name = "food")
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
